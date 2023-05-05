@@ -1,0 +1,13 @@
+{
+  "name": "Stop youtube shorts",
+  "description": "You wanna spend time to forget?",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "author": "ymatsukawa",
+  "content_scripts": [{
+    "matches": ["*://*.youtube.com/*", "*://m.youtube.com/*"],
+    "js": [
+      "content.js"
+    ]
+  }]
+}
