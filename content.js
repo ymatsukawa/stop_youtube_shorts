@@ -5,6 +5,6 @@ function isShort() {
 // https://stackoverflow.com/a/34100952
 window.addEventListener('yt-navigate-start', () => {
   if(isShort()) {
-    document.body.innerHTML = '<font size="32">Code it NOW</font>'
+    document.body.innerHTML = '<font size="16">Code it NOW</font>'
   }
 })
